@@ -15,7 +15,7 @@ def no_vowels(input_string):
     i = 0
     prevI = 0
     while i < len(input_string):
-        if input_string[i] == 'a' or input_string[i] == 'e' or input_string[i] == 'i' or input_string[i] == 'o' or input_string[i] == 'u': 
+        if input_string[i] == 'a' or input_string[i] == 'e' or input_string[i] == 'i' or input_string[i] == 'o' or input_string[i] == 'u' or input_string[i] == 'A' or input_string[i] == 'E' or input_string[i] == 'I' or input_string[i] == 'O' or input_string[i] == 'U': 
             if prevI == 0:
                 no_vowel_string += input_string[prevI:i]
             else:
